@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    cities = List<Map<String, dynamic>>.from(json.decode(jsonString));
+    cities = List<Map<String, dynamic>>.from(json.decode(jsonStr));
   }
   @override
   Widget build(BuildContext context) {
