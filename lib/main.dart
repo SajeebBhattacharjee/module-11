@@ -9,7 +9,7 @@ class MyApp extends StatefulWidget {
   _MyAppState createState() => _MyAppState();
 }
 class _MyAppState extends State<MyApp> {
-  final String jsonString = '''
+  final String jsonStr = '''
   [
     {
       "city": "New York",
